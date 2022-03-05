@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b05aef843ff6c84ebb28ca73ff4e6ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedRigidbody: {fileID: 0}
+  selectedItem: {fileID: 0}
   forceAmount: 500
 --- !u!114 &963194230
 MonoBehaviour:
@@ -874,6 +874,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 104902493, guid: 22dc79ed315678f4b842e6ded14aa648, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 14356186758753672, guid: 22dc79ed315678f4b842e6ded14aa648, type: 3}
       propertyPath: config
       value: 

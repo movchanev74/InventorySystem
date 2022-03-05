@@ -58,6 +58,7 @@ public class BackpackItem : MonoBehaviour
 
     public void RemoveFromBackpack()
     {
+        backpackItemHolder.RemoveItem();
         backpackItemHolder = null;
 
         if (itemState.Equals(ItemState.InBackPack))
